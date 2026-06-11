@@ -11,6 +11,7 @@
 
 <script>
 import ActividadController from '@ecored-sena/boulder-kit/plugin/components/actividad/ActividadController.vue'
+import { TRUE } from 'sass'
 
 export default {
   name: 'ActividadDidactica',
@@ -19,10 +20,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Desafío en Ingeniería de <em>prompts</em> y ecosistemas de IAG',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b>Objetivo:</b> evaluar el dominio técnico sobre los fundamentos de los Modelos de Lenguaje de Gran Escala (LLM), el marco normativo colombiano y la aplicación de técnicas avanzadas de ingeniería de <em>prompts</em>.',
       barajarPreguntas: false,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -30,28 +31,32 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es el criterio técnico propuesto por Alan Turing en 1950 para determinar si una máquina exhibe un comportamiento inteligente?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'La capacidad de realizar cálculos matemáticos complejos en segundos.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'El test de Turing, para determinar si el comportamiento de la máquina es indistinguible del humano.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'La creación de algoritmos basados en redes neuronales biológicas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'La integración de la lógica simbólica con el procesamiento de datos masivos.',
               esCorrecta: false,
             },
           ],
@@ -62,28 +67,32 @@ export default {
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+            'En la arquitectura de un LLM, ¿qué es técnicamente un "<em>Token</em>"?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'Una palabra completa almacenada en un diccionario estático.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'La unidad mínima de procesamiento de información, como un carácter o porción de palabra.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Un identificador único que garantiza la privacidad del usuario en la nube.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'El resultado final de una predicción probabilística de imagen.',
               esCorrecta: false,
             },
           ],
@@ -92,28 +101,33 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto:
+            '¿Cuál es la principal ventaja competitiva de la arquitectura RAG frente a la IA paramétrica?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'Una mayor fluidez conversacional y creatividad narrativa.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'La capacidad de acceder a información dinámica y actualizada sin reentrenar el modelo.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'El procesamiento de tokens a una velocidad significativamente mayor.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'El uso exclusivo de conocimiento interno "congelado" en sus parámetros.',
               esCorrecta: false,
             },
           ],
@@ -123,29 +137,29 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            '¿Quién propuso en 1950 un criterio técnico para determinar si una máquina puede exhibir un comportamiento inteligente indistinguible del humano?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'John McCarthy.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Leonardo Torres Quevedo.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Marvin Minsky.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Alan Turing.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -153,28 +167,29 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto:
+            '¿Qué hito tecnológico en 1997 demostró el potencial del procesamiento masivo en tareas lógicas al vencer a Garry Kasparov?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'El lanzamiento de GPT-4.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'El programa Deep Blue de IBM.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'El autómata ajedrecista español.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'La red neuronal de Dartmouth.',
               esCorrecta: false,
             },
           ],
@@ -184,29 +199,29 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+            '¿Cuál es la unidad mínima de información que un LLM utiliza para realizar predicciones estadísticas?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'El parámetro.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'El bit lógico.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'El <em>embedding</em>.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'El <em>token</em>.',
+              esCorrecta: TRUE,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -215,28 +230,28 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+            '¿Qué arquitectura de IA se caracteriza por consultar fuentes externas curadas antes de generar una respuesta?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'IA paramétrica.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'IA discriminativa.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'IA Consultiva (RAG).',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'IA de propósito general.',
               esCorrecta: false,
             },
           ],
@@ -246,28 +261,28 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+            'En el modelo IaaS (Infrastructure as a Service), ¿cuál es el <em>hardware</em> especializado para el cálculo paralelo masivo?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'CPUs convencionales.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Unidades GPU y TPU.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Discos de estado sólido.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Memoria RAM volátil.',
               esCorrecta: false,
             },
           ],
@@ -277,28 +292,28 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué nombre reciben las representaciones numéricas del significado semántico almacenadas en bases de datos vectoriales?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: '<em>Tokens.</em>',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Parámetros.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: '<em>Embeddings.</em>',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: '<em>Prompts.</em>',
               esCorrecta: false,
             },
           ],
@@ -308,28 +323,28 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué plataforma se define como un motor de búsqueda conversacional que prioriza la citación de fuentes para reducir alucinaciones?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'ChatGPT.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Perplexity AI.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'DeepSeek.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Midjourney.',
               esCorrecta: false,
             },
           ],
@@ -339,29 +354,29 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+            '¿Cuál es el error común sobre cómo "lee" la información un modelo de lenguaje de gran escala?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Que utiliza solo matemáticas.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Que analiza la semántica pura.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Que predice el siguiente signo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Que lee palabras completas.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -370,28 +385,28 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            '¿Qué modelo de servicio (Cloud) permite acceder a la IA mediante interfaces listas para el usuario final o APIs?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'IaaS.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: '<em>Hardware</em> as a Service.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'SaaS.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Local Host.',
               esCorrecta: false,
             },
           ],
@@ -401,28 +416,28 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Cuál es una característica principal de la IA Paramétrica o de "libro cerrado"?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Tiene conocimiento "congelado".',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Su conocimiento es dinámico.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Consulta bases de datos legales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Minimiza siempre las alucinaciones.',
               esCorrecta: false,
             },
           ],
@@ -432,28 +447,28 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Cómo se define técnicamente la operación de un LLM al recibir un estímulo o <em>prompt</em>?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Razonamiento lógico-deductivo.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Comprensión semántica profunda.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Predicción de cadenas de texto.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Clasificación de datos sensibles.',
               esCorrecta: false,
             },
           ],
@@ -463,28 +478,183 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            '¿Qué ventaja competitiva ofrece el enfoque de "libro abierto" (RAG) en una empresa?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Acceso a información actualizada.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Mayor velocidad de navegación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Reducción total de parámetros.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminación del uso de <em>tokens</em>.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto:
+            'Un bufete de abogados necesita una IA que no invente leyes y cite el artículo exacto del código civil. ¿Qué arquitectura deben implementar?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'IA Paramétrica básica.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Generadores de imagen.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Modelo de propósito general.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Arquitectura consultiva RAG.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto:
+            'Una empresa de <em>software</em> quiere usar un LLM pero teme que sus datos privados se usen para entrenar modelos públicos. ¿Qué medida técnica es prioritaria?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Aumentar el número de <em>tokens</em>.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Usar solo <em>prompts</em> cortos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Establecer protocolos de registro.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Cambiar el idioma del <em>prompt</em>.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            'Un administrativo debe resumir un contrato de 40 páginas. Al ingresar el texto, el sistema lo descompone en segmentos numéricos. ¿Cómo se llama este proceso?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Tokenización.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Parametrización.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Alucinación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Indexación.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            'Un desarrollador requiere una herramienta que no solo genere texto, sino que depure errores de código dentro de su entorno de trabajo. ¿Qué opción es la ideal?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'DALL-E.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'GitHub Copilot.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'ElevenLabs.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Perplexity AI.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            'Un investigador nota que su IA responde con datos de 2024 cuando se le pregunta por una norma de 2026, inventando detalles plausibles. ¿A qué fenómeno técnico se enfrenta?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Alucinación de la IA.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Error de infraestructura.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Latencia de red.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Predicción por <em>tokens</em>.',
               esCorrecta: false,
             },
           ],

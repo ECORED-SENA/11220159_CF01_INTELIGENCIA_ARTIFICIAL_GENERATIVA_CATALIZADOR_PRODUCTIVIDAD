@@ -17,7 +17,7 @@
                 img(src="@/assets/curso/temas/t2/img1.png", alt="alt").m-auto
           #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
             h2 2.1 Clasificación por funcionalidad y tipo de contenido
-          p.mb-5 La clasificación de las herramientas de IAG se fundamenta en su capacidad para procesar y generar distintas modalidades de datos, es decir, según la naturaleza del #[i output]. Aunque las plataformas más reconocidas operan mediante Modelos de Lenguaje de Gran Escala (#[i Large Language Models] [LLM]), el ecosistema actual incorpora arquitecturas especializadas orientadas a diferentes tipos de contenido. Las plataformas de IAG pueden clasificarse en las siguientes categorías funcionales:
+          p.mb-5 La clasificación de las herramientas de IAG se fundamenta en su capacidad para procesar y generar distintas modalidades de datos, es decir, según la naturaleza del #[i output]. Aunque las plataformas más reconocidas operan mediante modelos de lenguaje de gran escala (#[i Large Language Models] [LLM]), el ecosistema actual incorpora arquitecturas especializadas orientadas a diferentes tipos de contenido. Las plataformas de IAG pueden clasificarse en las siguientes categorías funcionales:
           .bg___slider.mb-5
             .px-5
               .ajuste-slider(data-aos="zoom-in")
@@ -41,7 +41,7 @@
                   .row.justify-content-center.align-items-center
                     .col-xl-6.mb-4
                       h4 Generadores de código (asistentes de programación)
-                      p Son herramientas optimizadas para el desarrollo de software. Permiten generar funciones completas, realizar depuración de errores (#[i debugging]), traducir lógica entre distintos lenguajes de programación y ofrecer asistencia en tiempo real dentro de Entornos de Desarrollo Integrados (#[i Integrated Development Environments][IDE]). 
+                      p Son herramientas optimizadas para el desarrollo de #[i software]. Permiten generar funciones completas, realizar depuración de errores (#[i debugging]), traducir lógica entre distintos lenguajes de programación y ofrecer asistencia en tiempo real dentro de entornos de desarrollo integrados (#[i Integrated Development Environments] [IDE]). 
                       p.mb-0 Un referente destacado es GitHub Copilot, basado en el modelo Codex y entrenado con grandes repositorios de código abierto.
                     .col-xl-6
                       figure
@@ -156,14 +156,14 @@
             img(src="@/assets/curso/temas/t1/img9.svg" style="max-width: 60px").m-auto
         .col
           h3 Ámbitos de aplicación en el sector productivo
-      p.mb-5 A continuación, se presenta un video de los principales ámbitos de aplicación de la Inteligencia Artificial Generativa y su impacto estratégico en sectores clave de la economía, la educación y la transformación digital.
+      p.mb-5 A continuación, se presenta un video de los principales ámbitos de aplicación de la inteligencia artificial generativa y su impacto estratégico en sectores clave de la economía, la educación y la transformación digital.
       figure(data-aos="zoom-in").mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption.fit___figcaption-video #[b Video]. Aplicaciones estratégicas de la Inteligencia Artificial Generativa en sectores productivos y sociales
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/Y4cN6Yk3ArM" title="Aplicaciones estratégicas de la IA generativa en sectores productivos y sociales" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption.fit___figcaption-video #[b Video]. Aplicaciones estratégicas de la IA generativa en sectores productivos y sociales
       p.mb-5 La adopción de plataformas de IAG en estos sectores incrementa la capacidad de análisis, reduce tiempos operativos y fortalece la toma de decisiones fundamentadas en datos y conocimiento contextualizado.
       .box___style_6(data-aos="zoom-in").mb-5
-        h5 Caso de uso: selección de plataforma para el desarrollo de #[b software]
+        h5 Caso de uso: selección de plataforma para el desarrollo de #[b #[i software]]
         p A continuación, se presenta un escenario aplicado relacionado con migración tecnológica en una empresa de base tecnológica.
         .row.justify-content-center.align-items-center.mb-3
           .col-xl.mb-4.mb-lg-0
@@ -178,7 +178,7 @@
                 .lista-ol--cuadro__vineta
                   span A
                 | 
-                p.mb-0 Se descarta el uso de modelos de propósito general sin integración con Entornos de Desarrollo Integrados (#[i Integrated Development Environments] [IDE]), debido a riesgos asociados a seguridad y privacidad del código fuente. 
+                p.mb-0 Se descarta el uso de modelos de propósito general sin integración con entornos de desarrollo integrados (#[i Integrated Development Environments] [IDE]), debido a riesgos asociados a seguridad y privacidad del código fuente. 
               li 
                 .lista-ol--cuadro__vineta
                   span B

@@ -15,7 +15,7 @@
             .col-xl-auto.col-md-9(data-aos="fade-left")
               figure
                 img(src="@/assets/curso/temas/t5/img1.png", alt="alt").m-auto
-          p.mb-5 En este contexto, la calidad de las instrucciones suministradas al Modelo de Lenguaje de Gran Escala (#[i Large Language Model] [LLM]) determina el nivel de precisión, coherencia y utilidad de los resultados obtenidos.
+          p.mb-5 En este contexto, la calidad de las instrucciones suministradas al modelo de lenguaje de gran escala (#[i Large Language Model] [LLM]) determina el nivel de precisión, coherencia y utilidad de los resultados obtenidos.
           #t_5_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
             h2 5.1 Iteración y refinamiento de comandos según objetivos de productividad
           p.mb-5 La obtención de resultados de alta calidad en modelos de lenguaje profundo rara vez depende de un único intento. Por el contrario, requiere un proceso continuo de iteración y refinamiento. Este ciclo operativo consiste en evaluar el #[i output] inicial generado por la IA y aplicar ajustes progresivos a las instrucciones, con el propósito de alinear la respuesta con los objetivos de productividad establecidos.
@@ -107,7 +107,7 @@
             .col-xl
               figure.mb-2.d-none.d-xl-block(data-aos="fade-left")
                 img(src='@/assets/curso/temas/t5/img9.svg', alt='' style="width: 75px")
-              p.mb-0 Estos artefactos pueden incluir scripts de programación, archivos estructurados o instrucciones técnicas orientadas a interactuar con sistemas operativos, bases de datos o Interfaces de Programación de Aplicaciones (#[i Application Programming Interfaces] [API]).
+              p.mb-0 Estos artefactos pueden incluir scripts de programación, archivos estructurados o instrucciones técnicas orientadas a interactuar con sistemas operativos, bases de datos o interfaces de programación de aplicaciones (#[i Application Programming Interfaces] [API]).
           p.mb-5 Mediante la ingeniería de #[i prompts], es posible diseñar flujos de trabajo destinados a automatizar tareas repetitivas de baja complejidad cognitiva y alto consumo de tiempo operativo. A continuación, se presentan algunos ejemplos de automatización mediante IA:
           .bg___carrusel
             .px-5

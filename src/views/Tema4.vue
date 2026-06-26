@@ -11,7 +11,7 @@
           .row.justify-content-center.align-items-center.mb-5
             .col-xl.mb-4.mb-lg-0
               .box___style_2.fit___box_11(data-aos="fade-right")
-                p.mb-0 La Ingeniería de #[i Prompts] (#[i Prompt Engineering]) se define técnicamente como el área especializada en diseñar, optimizar y refinar los estímulos o instrucciones (#[i prompts]) suministrados en lenguaje natural a un Modelo de Lenguaje de Gran Escala (#[i Large Language Model] [LLM]).
+                p.mb-0 La Ingeniería de #[i Prompts] (#[i Prompt Engineering]) se define técnicamente como el área especializada en diseñar, optimizar y refinar los estímulos o instrucciones (#[i prompts]) suministrados en lenguaje natural a un modelo de lenguaje de gran escala (#[i Large Language Model] [LLM]).
             .col-xl-auto.col-md-9(data-aos="fade-left")
               figure
                 img(src="@/assets/curso/temas/t4/img1.png", alt="alt").m-auto
@@ -27,7 +27,7 @@
           .row.justify-content-center.align-items-center.mb-5
             .col-xl.mb-4.mb-lg-0
               .box___style_2.fit___box_1.fit___box_13(data-aos="fade-right")
-                p.mb-0 La efectividad de un Modelo de Lenguaje de Gran Escala no depende exclusivamente de su capacidad computacional, sino también de la calidad y precisión de las instrucciones suministradas por el usuario. Un #[i prompt] de alto impacto se define como una estructura organizada de mensajes que especifica qué información es relevante y cómo debe generarse el producto final (#[i output]). En términos técnicos, el #[i prompting] constituye el mecanismo mediante el cual los modelos son “programados” para ejecutar tareas complejas con altos niveles de precisión y coherencia.
+                p.mb-0 La efectividad de un modelo de lenguaje de gran escala no depende exclusivamente de su capacidad computacional, sino también de la calidad y precisión de las instrucciones suministradas por el usuario. Un #[i prompt] de alto impacto se define como una estructura organizada de mensajes que especifica qué información es relevante y cómo debe generarse el producto final (#[i output]). En términos técnicos, el #[i prompting] constituye el mecanismo mediante el cual los modelos son “programados” para ejecutar tareas complejas con altos niveles de precisión y coherencia.
             .col-xl-auto.col-md-9(data-aos="fade-left")
               figure
                 img(src="@/assets/curso/temas/t4/img3.png", alt="alt").m-auto
@@ -56,7 +56,7 @@
                 .row(titulo="Formato").ajuste-cajaAcordion.ajuste-vineta
                   p.mb-3 Definen la estructura y presentación de la respuesta. Pueden incluir solicitudes de listas, cuadros comparativos, tablas, formato JSON o Markdown para integración en flujos automatizados.
                 .row(titulo="Audiencia").ajuste-cajaAcordion.ajuste-vineta
-                  p.mb-3 El tono determina el estilo lingüístico de la respuesta, por ejemplo técnico, académico o persuasivo. La audiencia establece el perfil del receptor final, permitiendo ajustar el nivel de complejidad del lenguaje y la profundidad conceptual (Jara Rey, 2024).
+                  p.mb-3 El tono determina el estilo lingüístico de la respuesta, por ejemplo, técnico, académico o persuasivo. La audiencia establece el perfil del receptor final, permitiendo ajustar el nivel de complejidad del lenguaje y la profundidad conceptual (Jara Rey, 2024).
           p.mb-5 La combinación adecuada de estos componentes incrementa significativamente la calidad de las respuestas generadas por la IA y mejora la eficiencia en procesos de automatización, análisis y producción de contenido. En entornos corporativos y productivos, el diseño estratégico de prompts permite transformar modelos generalistas en herramientas altamente especializadas, capaces de responder a necesidades técnicas concretas con mayor precisión y trazabilidad.
           .titles___box_tercer_nivel.mb-5(data-aos="fade-right")
             .col-lg-auto
@@ -89,7 +89,7 @@
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold < >
                       td.texto-left Funciona como marcador estructurado, similar a XML o HTML, para delimitar etiquetas o categorías de contenido.
-          p.mb-5 Su función principal consiste en establecer fronteras precisas entre instrucciones, contexto, datos de entrada y ejemplos, permitiendo que el Modelo de Lenguaje de Gran Escala (Large Language Model [LLM]) procese cada bloque de información de manera organizada y eficiente. Dentro de la ingeniería de prompts, los delimitadores desempeñan las siguientes funciones:
+          p.mb-5 Su función principal consiste en establecer fronteras precisas entre instrucciones, contexto, datos de entrada y ejemplos, permitiendo que el modelo de lenguaje de gran escala (Large Language Model [LLM]) procese cada bloque de información de manera organizada y eficiente. Dentro de la ingeniería de prompts, los delimitadores desempeñan las siguientes funciones:
       .bg___slider.mb-5
         .px-5
           .ajuste-slider(data-aos="zoom-in")
@@ -131,7 +131,7 @@
                 img(src="@/assets/curso/temas/t1/img9.svg" style="max-width: 60px").m-auto
             .col
               h3 Ejemplo: arquitectura de un prompt para la productividad
-          p.mb-5 A continuación, se presenta la aplicación práctica de la anatomía de un prompt en un escenario orientado a la mejora continua dentro del sector administrativo. El objetivo consiste en estructurar instrucciones precisas que permitan al Modelo de Lenguaje de Gran Escala generar resultados coherentes, contextualizados y técnicamente útiles para la toma de decisiones organizacionales.
+          p.mb-5 A continuación, se presenta la aplicación práctica de la anatomía de un prompt en un escenario orientado a la mejora continua dentro del sector administrativo. El objetivo consiste en estructurar instrucciones precisas que permitan al modelo de lenguaje de gran escala generar resultados coherentes, contextualizados y técnicamente útiles para la toma de decisiones organizacionales.
           TabsA.color-acento-botones.mb-5(data-aos="zoom-in")
             .tarjeta.color-acento-botones--borde.p-4(titulo="Paso 1. Contexto")
               .row.align-items-center
@@ -218,7 +218,7 @@
         .col
           h3 Técnicas de razonamiento lógico
       p.mb-5 Estas estrategias orientan al modelo para estructurar mejor sus procesos de inferencia, facilitar la revisión de los resultados y reducir errores asociados a respuestas no fundamentadas.  El razonamiento lógico integra diversas técnicas fundamentales, entre las que se destacan las siguientes: 
-      AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="zoom-in").mb-3
+      AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="zoom-in").mb-4
         .row(titulo="<em>Chain-of-Thought</em> (CoT - cadena de pensamiento)").ajuste-cajaAcordion.ajuste-vineta
           p.mb-3 Instruye al modelo para resolver un problema mediante pasos intermedios. Al descomponer una tarea compleja en una secuencia lógica, mejora la precisión en razonamientos aritméticos, deductivos o procedimentales.
         .row(titulo="<em>Tree of Thoughts</em> (ToT - árbol de pensamiento)").ajuste-cajaAcordion.ajuste-vineta
@@ -256,7 +256,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-xl.mb-4.mb-lg-0
           .box___style_3.fit___box_14(data-aos="fade-right")
-            p.mb-0 En implementaciones avanzadas de inteligencia artificial generativa (IAG), resulta fundamental establecer mecanismos de control que mantengan al Modelo de Lenguaje de Gran Escala (#[i Large Language Model] [LLM]) dentro de parámetros temáticos, éticos y operativos previamente definidos.
+            p.mb-0 En implementaciones avanzadas de inteligencia artificial generativa (IAG), resulta fundamental establecer mecanismos de control que mantengan al modelo de lenguaje de gran escala (#[i Large Language Model] [LLM]) dentro de parámetros temáticos, éticos y operativos previamente definidos.
         .col-xl-auto.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in")
           figure
             img(src='@/assets/curso/temas/t4/img19.jpg', alt='').m-auto
@@ -287,7 +287,7 @@
                 img(src="@/assets/curso/temas/t1/img9.svg" style="max-width: 60px").m-auto
             .col
               h3 ¿Qué son los '#[i rails]' o vías de control en los #[i prompts]?
-          p.mb-5 En el contexto de la ingeniería de #[i prompts], los #[i rails] o vías de control corresponden a guías, directrices y límites técnicos definidos dentro de una instrucción para restringir el comportamiento de un Modelo de Lenguaje de Gran Escala.
+          p.mb-5 En el contexto de la ingeniería de #[i prompts], los #[i rails] o vías de control corresponden a guías, directrices y límites técnicos definidos dentro de una instrucción para restringir el comportamiento de un modelo de lenguaje de gran escala.
           .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
             .bloque-texto-g__img(
               :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t4/img20.jpg')})` }")

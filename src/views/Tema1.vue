@@ -5,7 +5,7 @@
       .titulo-principal.color-acento-contenido
         .titulo-principal__numero
           span 1
-        h1 Fundamentos y arquitectura de la IA Generativa
+        h1 Fundamentos y arquitectura de la IA generativa
       .row.justify-content-center.align-items-center.mb-5
         .col-xl.mb-4.mb-lg-0
           .box___style_2.fit___box_7(data-aos="fade-right")
@@ -17,7 +17,7 @@
         h2 1.1 Evolución tecnológica y conceptos de la IAG
       .color___box_1
         .px-5
-          p.mb-5 La #[b inteligencia artificial] surge como una disciplina científica orientada a emular capacidades cognitivas humanas mediante sistemas computacionales. Su evolución histórica ha estado marcada por avances conceptuales y tecnológicos que dieron origen a la actual #[b Inteligencia Artificial Generativa (IAG)].
+          p.mb-5 La #[b inteligencia artificial] surge como una disciplina científica orientada a emular capacidades cognitivas humanas mediante sistemas computacionales. Su evolución histórica ha estado marcada por avances conceptuales y tecnológicos que dieron origen a la actual #[b inteligencia artificial generativa (IAG)].
           LineaTiempoE.color-acento-contenido(data-aos="zoom-in").mb-5
             .row(titulo="1912" subtitulo="")
               .col-lg-6.mb-4.mb-lg-0
@@ -45,11 +45,11 @@
                   img(src="@/assets/curso/temas/t1/img5.png", alt="alt").m-auto
             .row(titulo="Actualidad" subtitulo="")
               .col-lg-6.mb-4.mb-lg-0
-                p Se consolida la #[b Inteligencia Artificial Generativa (IAG)], enfocada en la creación de contenido como texto, imágenes, audio y código.
+                p Se consolida la #[b inteligencia artificial generativa (IAG)], enfocada en la creación de contenido como texto, imágenes, audio y código.
               .col-lg-6(data-aos="fade-left")
                 figure
                   img(src="@/assets/curso/temas/t1/img6.png", alt="alt").m-auto
-          p.mb-5 La siguiente comparación permite identificar las diferencias entre la #[b IA tradicional o discriminativa] y la #[b Inteligencia Artificial Generativa (IAG)].
+          p.mb-5 La siguiente comparación permite identificar las diferencias entre la #[b IA tradicional o discriminativa] y la #[b inteligencia artificial generativa (IAG)].
       .row.justify-content-center.mb-5
         .col-xl-6.col-md-9.mb-4.mb-lg-0(data-aos="fade-right")
           .box___card_sinbordes.h-100
@@ -66,7 +66,7 @@
               .col-12
                 figure.mb-4
                   img(src='@/assets/curso/temas/t1/img8.png', alt="" ).m-auto
-              h4 Inteligencia Artificial Generativa (IAG)
+              h4 Inteligencia artificial generativa (IAG)
               .box___card_sinbordes_p
                 p.mb-0 Genera contenido original mediante modelos de aprendizaje automático (#[i machine learning]) entrenados con grandes volúmenes de información.
       p.mb-5 La #[b IAG] utiliza criterios probabilísticos para identificar estructuras profundas y producir nuevos resultados, especialmente en tareas de #[b procesamiento de lenguaje natural (NLP)]. En el sector productivo, esta tecnología no solo automatiza procesos, sino que también fortalece la productividad, optimiza flujos de trabajo y favorece la innovación tecnológica (Ministerio de Ciencia, Innovación y Universidades de España, 2019).
@@ -116,7 +116,7 @@
               :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t1/img14.jpg')})` }")
             .bloque-texto-g__texto.p-4
               p.mb-0 En este contexto, la IAG actúa como un catalizador de la productividad en industrias tan diversas como la salud, el marketing, el derecho y el desarrollo de #[i software]. Su capacidad para automatizar procesos cognitivos, optimizar flujos de trabajo y generar contenido especializado está transformando la manera en que las organizaciones producen valor y toman decisiones.
-          p.mb-5 Desde una perspectiva de mejora continua, se estima que para el año 2030 el impacto económico global de la IA podría alcanzar los 14 billones de euros, duplicando las tasas de crecimiento económico en los países que logren integrar estas herramientas de manera estratégica. A continuación, se sintetizan algunos de los principales impactos de la Inteligencia Artificial Generativa (IAG) en distintos sectores productivos:
+          p.mb-5 Desde una perspectiva de mejora continua, se estima que para el año 2030 el impacto económico global de la IA podría alcanzar los 14 billones de euros, duplicando las tasas de crecimiento económico en los países que logren integrar estas herramientas de manera estratégica. A continuación, se sintetizan algunos de los principales impactos de la inteligencia artificial generativa (IAG) en distintos sectores productivos:
           .bg___carrusel
             .px-5
               .row.align-items-center.mb-5
@@ -152,11 +152,11 @@
               p.mb-0 Esta transformación exige que el aprendiz desarrolle competencias avanzadas no solo en la operación de herramientas basadas en IA, sino también en la comprensión ética, crítica y técnica de los algoritmos que sustentan esta nueva era industrial.
               Separador
               #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-                h2 1.2 Arquitectura técnica: tokens y Modelos de Lenguaje de Gran Escala (LLM)
+                h2 1.2 Arquitectura técnica: tokens y modelos de lenguaje de gran escala (LLM)
       .row.justify-content-center.align-items-center.mb-5
         .col-xl.mb-4.mb-lg-0
           .box___style_2.fit___box_1(data-aos="fade-right")
-            p.mb-0 La arquitectura base de la inteligencia artificial generativa (IAG) actual se fundamenta en los Modelos de Lenguaje de Gran Escala (#[i Large Language Models] [LLM]). Técnicamente, estos modelos son sistemas entrenados para realizar tareas de predicción de cadenas de texto mediante el cálculo de la probabilidad de ocurrencia de una unidad mínima de información denominada #[i token].
+            p.mb-0 La arquitectura base de la inteligencia artificial generativa (IAG) actual se fundamenta en los modelos de lenguaje de gran escala (#[i Large Language Models] [LLM]). Técnicamente, estos modelos son sistemas entrenados para realizar tareas de predicción de cadenas de texto mediante el cálculo de la probabilidad de ocurrencia de una unidad mínima de información denominada #[i token].
         .col-xl-auto.col-md-9(data-aos="fade-left")
           figure
             img(src="@/assets/curso/temas/t1/img20.png", alt="alt").m-auto
@@ -305,20 +305,20 @@
           tbody
             tr
               td.ajuste-border-tabla.texto-left.text-weight-bold Objetivo principal
-              td.ajuste-border-tabla.texto-left Fluidez y coherencia conversacional.
-              td.texto-left Precisión, fiabilidad y fundamentación.
+              td.ajuste-border-tabla.texto-left Fluidez y coherencia conversacional
+              td.texto-left Precisión, fiabilidad y fundamentación
             tr.ajuste-color-tabla
               td.ajuste-border-tabla.texto-left.text-weight-bold Fuente de datos
-              td.ajuste-border-tabla.texto-left Paramétrica, interna y estática.
-              td.texto-left Externa, curada y dinámica.
+              td.ajuste-border-tabla.texto-left Paramétrica, interna y estática
+              td.texto-left Externa, curada y dinámica
             tr
               td.ajuste-border-tabla.texto-left.text-weight-bold Transparencia
-              td.ajuste-border-tabla.texto-left Baja, debido al efecto de “caja negra”.
-              td.texto-left Alta, gracias a la capacidad de citar fuentes.
+              td.ajuste-border-tabla.texto-left Baja, debido al efecto de “caja negra”
+              td.texto-left Alta, gracias a la capacidad de citar fuentes
             tr.ajuste-color-tabla
               td.ajuste-border-tabla.texto-left.text-weight-bold Riesgo de error
-              td.ajuste-border-tabla.texto-left Alto, por fabricación de hechos “por diseño”.
-              td.texto-left Bajo en fabricación; persiste un riesgo residual de síntesis.
+              td.ajuste-border-tabla.texto-left Alto, por fabricación de hechos “por diseño”
+              td.texto-left Bajo en fabricación; persiste un riesgo residual de síntesis
       .titles___box_cuarto_nivel.mb-5(data-aos="fade-right")   
         h4.mb-0 Veracidad y trazabilidad en la productividad 
       p.mb-5 En el sector productivo, la diferencia entre ambos paradigmas resulta crítica para la toma de decisiones. La capacidad de verificar la procedencia de la información puede determinar la confiabilidad de procesos administrativos, jurídicos o industriales. En el siguiente escenario aplicado, se requiere identificar la última actualización de un protocolo de seguridad industrial:
@@ -390,7 +390,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-xl.mb-4.mb-lg-0
           .box___style_2.fit___box_2(data-aos="fade-right")
-            p.mb-0 El modelo SaaS permite al sector productivo acceder a capacidades avanzadas de inteligencia artificial generativa (IAG) sin necesidad de gestionar infraestructura física ni administrar el ciclo de vida del #[i hardware]. Este enfoque democratiza el acceso a la tecnología mediante interfaces listas para el usuario final o mediante Interfaces de Programación de Aplicaciones (#[i Application Programming Interfaces] [API]) orientadas al desarrollo de soluciones personalizadas.
+            p.mb-0 El modelo SaaS permite al sector productivo acceder a capacidades avanzadas de inteligencia artificial generativa (IAG) sin necesidad de gestionar infraestructura física ni administrar el ciclo de vida del #[i hardware]. Este enfoque democratiza el acceso a la tecnología mediante interfaces listas para el usuario final o mediante interfaces de programación de aplicaciones (#[i Application Programming Interfaces] [API]) orientadas al desarrollo de soluciones personalizadas.
         .col-xl-auto.col-md-9(data-aos="fade-left")
           figure
             img(src="@/assets/curso/temas/t1/img25.png", alt="alt").m-auto

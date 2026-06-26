@@ -1,8 +1,8 @@
 export default {
   global: {
-    Name: 'Ingeniería de <em>prompts</em> y ecosistema de la IA Generativa para la productividad',
+    Name: 'Ingeniería de <em>prompts</em> y ecosistema de la IA generativa para la productividad',
     Description:
-      'Este componente formativo profundiza en la arquitectura, clasificación y configuración de la Inteligencia Artificial Generativa (IAG). Se enfoca en la aplicación avanzada de la ingeniería de <em>prompts</em> para potenciar la productividad. El aprendiz desarrollará habilidades técnicas para operar plataformas de manera estratégica, garantizando la eficiencia y la seguridad de la información en el entorno productivo.',
+      'Este componente formativo profundiza en la arquitectura, clasificación y configuración de la Inteligencia Artificial generativa (IAG). Se enfoca en la aplicación avanzada de la ingeniería de <em>prompts</em> para potenciar la productividad. El aprendiz desarrollará habilidades técnicas para operar plataformas de manera estratégica, garantizando la eficiencia y la seguridad de la información en el entorno productivo.',
     imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
@@ -101,7 +101,7 @@ export default {
           },
           {
             numero: '3.2',
-            titulo: 'Gestión de Privacidad y Almacenamiento de la Información',
+            titulo: 'Gestión de privacidad y almacenamiento de la información',
             hash: 't_3_2',
           },
           {

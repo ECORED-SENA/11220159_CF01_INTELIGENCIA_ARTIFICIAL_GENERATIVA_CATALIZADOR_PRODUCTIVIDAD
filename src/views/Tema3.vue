@@ -26,7 +26,7 @@
                   .row.justify-content-center.align-items-center
                     .col-xl-6.mb-4
                       h4 Registro y autenticación
-                      p.mb-0 Se recomienda priorizar sistemas de Inicio de Sesión Único (#[i Single Sign-On] [SSO]) empresariales, con el fin de centralizar la gestión de identidades y garantizar que únicamente el personal autorizado acceda a las herramientas de IA.
+                      p.mb-0 Se recomienda priorizar sistemas de inicio de sesión único (#[i Single Sign-On] [SSO]) empresariales, con el fin de centralizar la gestión de identidades y garantizar que únicamente el personal autorizado acceda a las herramientas de IA.
                     .col-xl-6
                       figure
                         img(src='@/assets/curso/temas/t3/img2.png', alt='' style="max-width: 500px").m-auto
@@ -59,7 +59,7 @@
         .px-5
           Separador
           #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-            h2 3.2 Gestión de privacidad y Almacenamiento de la información
+            h2 3.2 Gestión de privacidad y almacenamiento de la información
           p.mb-5 La gobernanza de datos en inteligencia artificial generativa (IAG) requiere un ecosistema técnico, legal y organizacional que garantice el control del ciclo de vida de la información. En este contexto, el aprendiz debe comprender y aplicar configuraciones de privacidad orientadas a evitar que datos sensibles sean utilizados para el reentrenamiento de modelos públicos.
           .row.align-items-center.mb-5
             .col-xl.mb-4.mb-lg-0
@@ -110,7 +110,7 @@
                   .row.justify-content-center.align-items-center
                     .col-xl-6.mb-4
                       h4 Protocolo de abstención
-                      p.mb-0 La IA debe configurarse para aplicar un “silencio estratégico”, indicando explícitamente cuando no dispone de información suficiente o cuando las fuentes recuperadas presentan inconsistencias. Este enfoque reduce el riesgo de fabricación de respuestas y fortalece la confiabilidad del sistema.
+                      p.mb-0 La IA debe configurarse para aplicar un “silencio estratégico”, indicando explícitamente cuándo no dispone de información suficiente o cuándo las fuentes recuperadas presentan inconsistencias. Este enfoque reduce el riesgo de fabricación de respuestas y fortalece la confiabilidad del sistema.
                     .col-xl-6
                       figure
                         img(src='@/assets/curso/temas/t3/img10.png', alt='' style="max-width: 500px").m-auto
@@ -137,7 +137,7 @@
               figure
                 img(src="@/assets/curso/temas/t1/img9.svg" style="max-width: 60px").m-auto
             .col
-              h3 Política nacional de Inteligencia Artificial (CONPES 4144)
+              h3 Política nacional de inteligencia artificial (CONPES 4144)
           p.mb-5 El documento CONPES 4144 de 2025 constituye uno de los principales referentes de la estrategia estatal para posicionar a Colombia como una economía basada en el conocimiento y el aprovechamiento responsable de la IA.
           .row.align-items-center.mb-5
             .col-xl.mb-4.mb-lg-0
@@ -256,7 +256,7 @@
           figure
             img(src="@/assets/curso/temas/t1/img9.svg" style="max-width: 60px").m-auto
         .col
-          h3 Sinergia entre política y Ley para la productividad
+          h3 Sinergia entre política y ley para la productividad
       p.mb-0 La integración de la IA bajo el marco del #[b CONPES 4144] y la #[b Ley 1581] permite mitigar riesgos críticos como la #[b vulneración de la privacidad] y la #[b distorsión de la veracidad]. El aprendiz debe reconocer que la protección de datos no es una barrera para la innovación, sino un habilitador de confianza digital, la cual es esencial para que las empresas y ciudadanos adopten estas tecnologías de manera masiva y segura.
 
 </template>

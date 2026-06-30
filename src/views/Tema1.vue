@@ -455,7 +455,7 @@
 </template>
 
 <script>
-import audio1 from '@/assets/componentes/audios/audio-ej.mp3'
+import audio1 from '@/assets/componentes/audios/Modalidades_implementacion_SaaS_entornos_inteligencia_artificial.mp3'
 export default {
   name: 'Tema1',
   data: () => ({

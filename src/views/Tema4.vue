@@ -363,7 +363,7 @@
 </template>
 
 <script>
-import audio2 from '@/assets/componentes/audios/audio-ej.mp3'
+import audio2 from '@/assets/componentes/audios/Sintesis_componente_formativo.m4a'
 export default {
   name: 'Tema4',
   data: () => ({
